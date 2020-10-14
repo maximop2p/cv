@@ -1,1 +1,1 @@
-[![](cv-en.png)](https://maximosantoro.github.io/cv/)
+[![](cv-1.png)](https://maximosantoro.github.io/cv/)
