@@ -25,4 +25,4 @@ clean:
 	rm -rf *.aux *.log *.out *.fls *.fdb_latexmk
 
 cleanclean: clean
-	rm -rf *.pdf
+	rm -rf *.pdf *.png
