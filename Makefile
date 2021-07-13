@@ -2,7 +2,7 @@ all: clean
 	$(MAKE) spanish
 	$(MAKE) english
 	pdftoppm cv-en.pdf cv -png -rx 300 -ry 300
-	
+
 spanish: clean
 	xelatex cv.tex
 	xelatex cv.tex
