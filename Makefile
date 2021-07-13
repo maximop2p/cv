@@ -8,8 +8,7 @@ spanish: clean
 	xelatex cv.tex
 	mv cv.pdf cv-light.pdf
 	xelatex cv.tex
-	mv cv.pdf cv-full-es.pdf
-	mv cv-light.pdf cv-es.pdf
+	mv cv.pdf cv-es.pdf
 	$(MAKE) clean
 
 english: clean
@@ -17,8 +16,7 @@ english: clean
 	xelatex "\def\inenglish{1} \input{cv.tex}"
 	mv cv.pdf cv-light.pdf
 	xelatex "\def\inenglish{1} \input{cv.tex}"
-	mv cv.pdf cv-full-en.pdf
-	mv cv-light.pdf cv-en.pdf
+	mv cv.pdf cv-en.pdf
 	$(MAKE) clean
 
 clean:
